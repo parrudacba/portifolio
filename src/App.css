@@ -1,0 +1,34 @@
+.App {
+  height: 100vh;
+  width: 100vw;
+  background: url('./assets/fundo.png');
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container {
+  width: 80%;
+  height: 90%;
+  display: flex;
+  flex-direction: column;
+}
+
+.sub-container {
+  display: flex;
+  justify-content: space-evenly;
+  min-height: calc(100% - 50px);
+  align-items: center;
+}
+
+@media (max-width: 1139px) {
+  .App {
+    background: linear-gradient(rgb(50, 8, 117), rgb(50, 5, 172), rgb(79, 127, 216));
+    min-height: 100vh;
+    overflow-y: hidden;
+  }
+  .sub-container {
+    flex-direction: column;
+  }
+}

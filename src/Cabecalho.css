@@ -1,0 +1,17 @@
+.cabecalho {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.titulo {
+  font-size: 3em;
+  color: rgb(255, 0, 0);
+}
+
+.linha {
+  height: 5px;
+  background-color: red;
+  width: 20%;
+}
